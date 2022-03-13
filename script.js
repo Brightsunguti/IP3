@@ -4,9 +4,9 @@ $(document).ready(function(){
 
      $('#design_info').toggle();
 
-//  });
-//  $('#development').on('click', function(){
-//     $('#dev_info').toggle();
+ });
+ $('#development').on('click', function(){
+    $('#dev_info').toggle();
 
 //  });
 //  $('#product').on('click' , function(){
