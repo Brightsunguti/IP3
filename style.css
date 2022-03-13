@@ -37,7 +37,7 @@
     text-align: center;
     justify-content: center;
 }
-/*.row4{
+.row4{
     padding: 40px;
     justify-content:space-between;
     text-align: center;
@@ -55,7 +55,7 @@
     background-color: whitesmoke;
     
 }
-.row6{
+/*.row6{
     color: white;
     padding: 40px;
     height: 400px;
