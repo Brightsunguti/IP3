@@ -15,7 +15,7 @@
     text-align: center;
     justify-content: center;
 }
-/*.row2{
+.row2{
     padding: 30px;
     width: 100%;
     height: 250px;
@@ -26,7 +26,7 @@
     text-align: center;
 
 }
-.row3{
+/*.row3{
     margin: 0%;
    padding-top: 60px;
     color: white;
