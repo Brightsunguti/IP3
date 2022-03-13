@@ -8,9 +8,9 @@ $(document).ready(function(){
  $('#development').on('click', function(){
     $('#dev_info').toggle();
 
-//  });
-//  $('#product').on('click' , function(){
-//      $('#product_info').toggle();
-//  })
+ });
+ $('#product').on('click' , function(){
+     $('#product_info').toggle();
+ })
 
 });

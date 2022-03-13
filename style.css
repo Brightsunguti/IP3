@@ -11,6 +11,7 @@
     height: 600px;
     background-image: url(./assets/backgrounds/h_img.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     justify-content: center;
@@ -39,16 +40,18 @@
 }
 .row4{
     padding: 40px;
+    padding-bottom: 50px;
     justify-content:space-between;
     text-align: center;
-    height: 250px;
+    height: 400px;
     background-color: whitesmoke;
 }
 .row5{
+    margin: 20px;
     object-fit: contain;
-    padding-right: 8rem;
-    padding-left: 7rem;
-    height: 350px;
+    padding-right: 12rem;
+    padding-left: 12rem;
+    height: 450px;
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -70,3 +73,20 @@
     text-align: center;
     justify-items: center;
 } 
+.column{
+    margin-left: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 24%;
+    padding: 5px;
+}
+.column2{
+float: left;
+width: 33.33%;
+}
+.row h2{
+    text-align: center;
+}
+.container2{
+    background-color: whitesmoke;
+}
