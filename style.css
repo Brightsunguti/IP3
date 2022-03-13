@@ -58,15 +58,6 @@
     background-color: whitesmoke;
     
 }
-.row6{
-    color: white;
-    padding: 40px;
-    height: 400px;
-    background-image: url(./assets/backgrounds/c_image.jpg);
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
-}
 .row7{
     background-color: whitesmoke;
     padding: 20px;
@@ -90,3 +81,56 @@ width: 33.33%;
 .container2{
     background-color: whitesmoke;
 }
+.row6{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .contact h2{
+    text-align: center;
+    padding-top: 40px;
+  }
+  .row6 .detail{
+   margin-top: 10px;
+  }
+  #name{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 30%;
+  }
+  #email{
+    width: 30%;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 30px;
+  }
+  #message{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 210px;
+    width: 70%;
+    margin-top: 20px;
+  }
+  #btn{
+      border-radius: 30px;
+    background-color:white;
+    border: 1px solid white;
+    width: 90px;
+    margin: 15px;
+    text-align: center;
+  }
+  .detail::-webkit-input-placeholder {
+    color: white;
+  }
+  #feedback{
+      color: rgb(1, 68, 1);
+  }

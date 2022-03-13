@@ -60,23 +60,23 @@
         </div>
         
             <div class="container2">
-                <div class="row">
+                <div class="row" id="portfolio">
                     <h2>PORTFOLIO</h2> 
-                    <div class="column">
+                    <div class="column" >
                         <img src="./assets/portfolio/work1.jpg" alt="image" style="width: 100%;">
                     </div>
 
-                    <div class="column">
+                    <div class="column" >
                         <img src="./assets/portfolio/work2.jpg" alt="image" style="width: 100%;">
                     
                     </div>
 
-                    <div class="column">
+                    <div class="column" >
                         <img src="./assets/portfolio/work3.jpg" alt="image" style="width: 100%;">
                     
                     </div>
 
-                    <div class="column">
+                    <div class="column" >
                         <img src="./assets/portfolio/work4.jpg" alt="image" style="width: 100%;">
                     
                     </div>
@@ -87,16 +87,16 @@
                     
                     </div>
 
-                    <div class="column">
+                    <div class="column" >
                         <img src="./assets/portfolio/work6.jpg" alt="image" style="width: 100%;">
                     </div>
 
-                    <div class="column">
+                    <div class="column" >
                         <img src="./assets/portfolio/work7.jpg" alt="image" style="width: 100%;">
                     </div>
                 
                     <div class="column">
-                        <img src="./assets/portfolio/work8.jpg" alt="image" style="width: 100%;">
+                        <img src="./assets/portfolio/work8.jpg" alt="image" id="project" style="width: 100%;">
                     </div>
                     
                   
@@ -104,15 +104,16 @@
         </div>
         <div class="row6">
             <h2>CONTACT US</h2>
-            <form>
-                    <input type= "text" class="name" id="name" placeholder="Name...">
-                
-                    <input type= "text" class="email" id="email" placeholder="E-mail..."><br><br><br><br><br>
-                   
-                    ]
-                    <input type="button" value="Submit" id="button">
-
-            </form>
+            
+                <form action="https://formspree.io/f/xayvbwpo" method="post">
+                  <input name="name" id="name" class="detail" type="text" placeholder="Name..." required>
+                  <input name="email" id="email" class="detail" type="email" placeholder="Email..." required><br>
+                  <input name="message" id="message" class="detail" type="text" placeholder="Your message here..." required>
+                </form>
+                <button input type="button" id="btn">SUBMIT</button>
+                <p id="feedback">We have received your message. Thank you for reaching out to us!!!</p>
+               
+        
         </div>
         <div class="row7"> 
             <img src="./assets/social_icons/behance.png" alt="behance" >
