@@ -133,7 +133,8 @@ width: 33.33%;
     color: white;
   }
   #feedback{
-      color: rgb(1, 68, 1);
+    display: none;
+      color: rgb(1, 68, 1); 
   }
   .column img{
 
@@ -142,4 +143,13 @@ width: 33.33%;
   .column:hover{
     transform: scale(1.3);
     z-index: 2;
+  }
+  #design_info{
+    display: none;
+  }
+  #dev_info{
+    display: none;
+  }
+  #product_info{
+    display: none;
   }
